@@ -5,9 +5,6 @@
     --img-bgcolors: #EEEEEE;
     --blue-color: #2196f3;
     --button-bgcolor: #F5F4FA;
-    --regular-font-weight: 400px;
-    --medium-font-weight: 500px;
-    --bold-font-weight: 700px;
 }
 
 .a {
@@ -41,7 +38,7 @@ body {
     width: 145px;
     color: var(--main-black);
     font-family: 'Raleway', sans-serif;
-    font-weight: var(--bold-font);
+    font-weight: 700px;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
@@ -87,7 +84,7 @@ body {
 .page-section-list-item-btn-mark {
     color: var(--main-black);
     background-color: var(--button-bgcolor);
-    font-weight: var(--medium-font-weight);
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.03em;
@@ -134,7 +131,7 @@ body {
 .page-section-portfolio-img-title {
     width: 322px;
     color: var(--main-black);
-    font-weight: var(--bold-font-weight);
+    font-weight: var(--);
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -143,7 +140,7 @@ body {
 .page-section-portfolio-img-text {
     width: 322px;
     color: var(--grey-color);
-    font-weight: var(--regular-font-weight);
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
@@ -157,7 +154,7 @@ body {
 .page-footer-logo {
     width: 145px;
     font-family: 'Raleway', sans-serif;
-    font-weight: var(--bold-font-weight);
+    font-weight: 700px;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -171,7 +168,7 @@ body {
 .page-footer-list-item-location-link {
     width: 231px;
     color: var(--main-white);
-    font-weight: var(--regular-font-weight);
+    font-weight: 400px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -182,7 +179,7 @@ body {
 .page-footer-list-item-tel-link {
     width: 231px;
     color: rgba(255, 255, 255, 0.6);
-    font-weight: var(--regular-font-weight);
+    font-weight: 400px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
