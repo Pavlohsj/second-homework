@@ -2,9 +2,7 @@
     --main-black: #212121;
     --grey-color: #757575;
     --main-white: #ffffff;
-    --img-bgcolors: #EEEEEE;
     --blue-color: #2196f3;
-    --button-bgcolor: #F5F4FA;
     --regular-font-weight: 400px;
     --medium-font-weight: 500px;
     --bold-font-weight: 700px;
@@ -47,7 +45,6 @@ body {
     letter-spacing: 0.03em;
 }
 
-
 .menu-nav-list-item-link {
     color: var(--main-black);
     width: 45px;
@@ -68,84 +65,84 @@ body {
     color: var(--blue-color);
 }
 
-.page {
-    width: 1170px;
+.page-main-section {
+    width: 1600px;
+    background-color: #2F303A;
 }
 
-.page-section {
-    width: 1170px;
-}
+.page-main-section-title {
+    width: 696px;
 
-.page-section-nav-list {
-    width: 575px;
-}
-
-.page-section-list-item-btn-all,
-.page-section-list-item-btn-web,
-.page-section-list-item-btn-app,
-.page-section-list-item-btn-design,
-.page-section-list-item-btn-mark {
-    color: var(--main-black);
-    background-color: var(--button-bgcolor);
-    font-weight: var(--medium-font-weight);
-    font-size: 16px;
-    line-height: 1.63;
-    letter-spacing: 0.03em;
-}
-
-.page-section-list-item-btn-all:hover,
-.page-section-list-item-btn-web:hover,
-.page-section-list-item-btn-app:hover,
-.page-section-list-item-btn-design:hover,
-.page-section-list-item-btn-mark:hover,
-.page-section-list-item-btn-all:focus,
-.page-section-list-item-btn-web:focus,
-.page-section-list-item-btn-app:focus,
-.page-section-list-item-btn-design:focus,
-.page-section-list-item-btn-mark:focus {
-    background-color: var(--blue-color);
-    color: var(--main-white);
-}
-
-.page-section-list-item-btn-all {
-    width: 73px;
-}
-
-.page-section-list-item-btn-web {
-    width: 125px;
-}
-
-.page-section-list-item-btn-app {
-    width: 112px;
-}
-
-.page-section-list-item-btn-design {
-    width: 103px;
-}
-
-.page-section-list-item-btn-mark {
-    width: 130px;
-}
-
-.page-section-portfolio-img {
-    width: 370px;
-}
-
-.page-section-portfolio-img-title {
-    width: 322px;
-    color: var(--main-black);
-    font-weight: var(--bold-font-weight);
-    font-size: 18px;
-    line-height: 2;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
     letter-spacing: 0.06em;
 }
 
-.page-section-portfolio-img-text {
-    width: 322px;
+.page-main-section-btn {
+    width: 216px;
+    background-color: var(--blue-color);
+    color: var(--main-white)
+}
+
+.page-features-section {
+    width: 1170px;
+}
+
+.page-features-section-list-item-title {
+    color: var(--main-black);
+}
+
+.page-features-section-list-item-text {
+    color: var(--grey-color);
+}
+
+.page-about-section {
+    width: 1170px;
+}
+
+.page-about-section-title {
+    color: var(--main-black);
+}
+
+.page-about-section-list-item-img {
+    width: 370px;
+    height: 294px;
+}
+
+.page-team-section {
+    width: 1600px;
+    background-color: #F5F4FA;
+}
+
+.page-team-section-title {
+    width: 264px;
+    color: var(--main-black);
+    font-weight: var(--bold-font-weight);
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+
+.page-team-section-list-img {
+    width: 270px;
+    height: 260px;
+}
+
+.page-team-section-list-title {
+    width: 129px;
+    color: var(--main-black);
+    font-weight: var(--medium-font-weight);
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.page-team-section-list-text {
+    width: 130px;
     color: var(--grey-color);
     font-weight: var(--regular-font-weight);
     font-size: 16px;
-    line-height: 1.9;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
@@ -182,7 +179,7 @@ body {
 .page-footer-list-item-tel-link {
     width: 231px;
     color: rgba(255, 255, 255, 0.6);
-    font-weight: var(--regular-font-weight);
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
