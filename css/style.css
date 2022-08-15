@@ -24,18 +24,33 @@
     cursor: pointer;
 }
 
+.span {
+    color: var(--blue-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 body {
     background-color: var(--main-white);
     font-family: 'Roboto', sans-serif;
 }
 
 .menu {
-    width: 1600px;
     background-color: var(--main-white);
 }
 
 .menu-nav-logo {
-    width: 145px;
     color: var(--main-black);
     font-family: 'Raleway', sans-serif;
     font-weight: 700px;
@@ -47,13 +62,19 @@ body {
 
 .menu-nav-list-item-link {
     color: var(--main-black);
-    width: 45px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
 
 .menu-information-list-item-link-tel,
 .menu-information-list-item-link-mail {
     color: var(--grey-color);
-    width: 122px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
 
 .menu-nav-list-item-link:hover,
@@ -63,18 +84,6 @@ body {
 .menu-information-list-item-link-tel:hover,
 .menu-information-list-item-link-tel:focus {
     color: var(--blue-color);
-}
-
-.page {
-    width: 1170px;
-}
-
-.page-section {
-    width: 1170px;
-}
-
-.page-section-nav-list {
-    width: 575px;
 }
 
 .page-section-list-item-btn-all,
@@ -104,55 +113,26 @@ body {
     color: var(--main-white);
 }
 
-.page-section-list-item-btn-all {
-    width: 73px;
-}
-
-.page-section-list-item-btn-web {
-    width: 125px;
-}
-
-.page-section-list-item-btn-app {
-    width: 112px;
-}
-
-.page-section-list-item-btn-design {
-    width: 103px;
-}
-
-.page-section-list-item-btn-mark {
-    width: 130px;
-}
-
-.page-section-portfolio-img {
-    width: 370px;
-}
-
 .page-section-portfolio-img-title {
-    width: 322px;
     color: var(--main-black);
-    font-weight: var(--);
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
 .page-section-portfolio-img-text {
-    width: 322px;
     color: var(--grey-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
 
 .page-footer {
-    width: 1600px;
     background-color: #2F303A;
 }
 
 .page-footer-logo {
-    width: 145px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700px;
     font-size: 26px;
@@ -161,14 +141,8 @@ body {
     color: var(--main-white);
 }
 
-.page-footer-list {
-    width: 231px;
-}
-
 .page-footer-list-item-location-link {
-    width: 231px;
     color: var(--main-white);
-    font-weight: 400px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -177,9 +151,7 @@ body {
 
 .page-footer-list-item-mail-link,
 .page-footer-list-item-tel-link {
-    width: 231px;
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;

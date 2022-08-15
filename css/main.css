@@ -22,39 +22,48 @@
     cursor: pointer;
 }
 
+.span {
+    color: var(--blue-color);
+}
+
 body {
     background-color: var(--main-white);
     font-family: 'Roboto', sans-serif;
 }
 
 .menu {
-    width: 1600px;
     background-color: var(--main-white);
 }
 
-.menu-nav-logo {
-    width: 145px;
+.nav-logo {
     color: var(--main-black);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
-.menu-nav-list-item-link {
+
+.nav-link {
     color: var(--main-black);
-    width: 45px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
 
 .menu-information-list-item-link-tel,
 .menu-information-list-item-link-mail {
     color: var(--grey-color);
-    width: 122px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.02em;
 }
 
-.menu-nav-list-item-link:hover,
-.menu-nav-list-item-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .menu-information-list-item-link-mail:hover,
 .menu-information-list-item-link-mail:focus,
 .menu-information-list-item-link-tel:hover,
@@ -63,42 +72,51 @@ body {
 }
 
 .page-main-section {
-    width: 1600px;
     background-color: #2F303A;
 }
 
 .page-main-section-title {
-    width: 696px;
-    font-weight: 900px;
+    font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     letter-spacing: 0.06em;
+    color: var(--main-white);
+    text-transform: uppercase;
 }
 
 .page-main-section-btn {
-    width: 216px;
     background-color: var(--blue-color);
     color: var(--main-white)
 }
 
-.page-features-section {
-    width: 1170px;
+.page-main-section-btn:hover,
+.page-main-section-btn:focus {
+    color: var(--main-white);
+    background-color: #188CE8;
 }
 
 .page-features-section-list-item-title {
     color: var(--main-black);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.43;
+    letter-spacing: 0.03em;
 }
 
 .page-features-section-list-item-text {
     color: var(--grey-color);
-}
-
-.page-about-section {
-    width: 1170px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .page-about-section-title {
     color: var(--main-black);
+}
+
+.page-about-section-list-item {
+    background-color: var(--main-white);
 }
 
 .page-about-section-list-item-img {
@@ -107,17 +125,19 @@ body {
 }
 
 .page-team-section {
-    width: 1600px;
     background-color: #F5F4FA;
 }
 
 .page-team-section-title {
-    width: 264px;
     color: var(--main-black);
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+}
+
+.page-team-section-list-item {
+    background-color: var(--main-white);
 }
 
 .page-team-section-list-img {
@@ -126,45 +146,36 @@ body {
 }
 
 .page-team-section-list-title {
-    width: 129px;
     color: var(--main-black);
-    font-weight: 500px;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
 
 .page-team-section-list-text {
-    width: 130px;
     color: var(--grey-color);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
 .page-footer {
-    width: 1600px;
     background-color: #2F303A;
 }
 
 .page-footer-logo {
-    width: 145px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-white);
 }
 
-.page-footer-list {
-    width: 231px;
-}
-
 .page-footer-list-item-location-link {
-    width: 231px;
     color: var(--main-white);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -173,9 +184,8 @@ body {
 
 .page-footer-list-item-mail-link,
 .page-footer-list-item-tel-link {
-    width: 231px;
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
