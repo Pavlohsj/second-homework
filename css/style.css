@@ -50,17 +50,17 @@ body {
     background-color: var(--main-white);
 }
 
-.menu-nav-logo {
+.nav-logo {
     color: var(--main-black);
     font-family: 'Raleway', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
 }
 
 
-.menu-nav-list-item-link {
+.nav-link {
     color: var(--main-black);
     font-weight: 500;
     font-size: 14px;
@@ -68,8 +68,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.menu-information-list-item-link-tel,
-.menu-information-list-item-link-mail {
+.link-mail,
+.link-tel {
     color: var(--grey-color);
     font-weight: 500;
     font-size: 14px;
@@ -77,12 +77,12 @@ body {
     letter-spacing: 0.02em;
 }
 
-.menu-nav-list-item-link:hover,
-.menu-nav-list-item-link:focus,
-.menu-information-list-item-link-mail:hover,
-.menu-information-list-item-link-mail:focus,
-.menu-information-list-item-link-tel:hover,
-.menu-information-list-item-link-tel:focus {
+.nav-link:hover,
+.nav-link:focus,
+.link-mail:hover,
+.link-mail:focus,
+.link-tel:hover,
+.link-tel:focus {
     color: var(--blue-color);
 }
 
