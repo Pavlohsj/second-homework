@@ -86,11 +86,11 @@ body {
     color: var(--blue-color);
 }
 
-.page-section-list-item-btn-all,
-.page-section-list-item-btn-web,
-.page-section-list-item-btn-app,
-.page-section-list-item-btn-design,
-.page-section-list-item-btn-mark {
+.btn-all,
+.btn-web,
+.btn-app,
+.btn-design,
+.btn-mark {
     color: var(--main-black);
     background-color: var(--button-bgcolor);
     font-weight: 500;
@@ -99,21 +99,21 @@ body {
     letter-spacing: 0.03em;
 }
 
-.page-section-list-item-btn-all:hover,
-.page-section-list-item-btn-web:hover,
-.page-section-list-item-btn-app:hover,
-.page-section-list-item-btn-design:hover,
-.page-section-list-item-btn-mark:hover,
-.page-section-list-item-btn-all:focus,
-.page-section-list-item-btn-web:focus,
-.page-section-list-item-btn-app:focus,
-.page-section-list-item-btn-design:focus,
-.page-section-list-item-btn-mark:focus {
+.btn-all:hover,
+.btn-web:hover,
+.btn-app:hover,
+.btn-design:hover,
+.btn-mark:hover,
+.btn-all:focus,
+.btn-web:focus,
+.btn-app:focus,
+.btn-design:focus,
+.btn-mark:focus {
     background-color: var(--blue-color);
     color: var(--main-white);
 }
 
-.page-section-portfolio-img-title {
+.portfolio-img-title {
     color: var(--main-black);
     font-weight: 700;
     font-size: 18px;
@@ -121,39 +121,40 @@ body {
     letter-spacing: 0.06em;
 }
 
-.page-section-portfolio-img-text {
+.portfolio-img-text {
     color: var(--grey-color);
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
 }
 
-.page-footer {
+.footer {
     background-color: #2F303A;
 }
 
-.page-footer-logo {
+.footer-logo {
     font-family: 'Raleway', sans-serif;
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-white);
 }
 
-.page-footer-list-item-location-link {
+.location-link {
     color: var(--main-white);
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    font-style: normal;
 }
 
-.page-footer-list-item-mail-link,
-.page-footer-list-item-tel-link {
+.footer-mail-link,
+.footer-tel-link {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    font-style: normal;
 }
